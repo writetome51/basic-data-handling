@@ -12,7 +12,7 @@
   },
   "keywords": [
     "basic",
-	"typescript",
+    "typescript",
     "data-type",
     "functions"
   ],
@@ -23,5 +23,6 @@
   },
   "homepage": "",
   "dependencies": {
+
   }
 }
