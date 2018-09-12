@@ -1,0 +1,27 @@
+{
+  "name": "general_data_handling",
+  "version": "1.0.0",
+  "description": "For basic TypeScript data-type checking and checking content of non-specific data-types.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/general_data_handling.git"
+  },
+  "keywords": [
+    "basic",
+	"typescript",
+    "data-type",
+    "functions"
+  ],
+  "author": "Steve Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/writetome51/general_data_handling/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+  }
+}
