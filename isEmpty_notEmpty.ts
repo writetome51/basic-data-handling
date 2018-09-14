@@ -1,4 +1,3 @@
-
 export function isEmpty(arrayOrString): boolean {
 	return (arrayOrString.length === 0);
 }

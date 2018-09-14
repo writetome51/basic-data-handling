@@ -1,7 +1,4 @@
-
-export function isArray(data): boolean {
-	return (Array.isArray(data));
-}
+export const isArray = Array.isArray;
 
 
 export function notArray(data): boolean {

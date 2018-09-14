@@ -1,10 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function isArray(data) {
-    return (Array.isArray(data));
-}
-exports.isArray = isArray;
+exports.isArray = Array.isArray;
 function notArray(data) {
-    return !(isArray(data));
+    return !(exports.isArray(data));
 }
 exports.notArray = notArray;
