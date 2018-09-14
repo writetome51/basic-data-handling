@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var isArray_notArray_1 = require("./isArray_notArray");
-// Triggers error is type of variable is not expectedType.
+// Triggers error if type of variable is not expectedType.
 // @param expectedType can be one of the specified strings or an array of the
 // specified strings if you're allowing variable to be more than one type.
 // Remember: typeof null does not return 'null'.  It returns 'object'.
