@@ -1,4 +1,4 @@
-import { notArray, isArray } from '../arrays/no_modify/return_boolean/is_not_array';
+import { notArray, isArray } from './isArray_notArray';
 
 
 export function checkTypeOf(
