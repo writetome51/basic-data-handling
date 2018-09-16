@@ -1,8 +1,10 @@
-import { checkTypeOf } from './checkTypeOf';
+import { notArray } from './isArray_notArray';
 
 
 export function isEmpty(arrayOrString): boolean {
-	checkTypeOf(arrayOrString, ['array', 'string']);
+	if (typeof arrayOrString !== 'string' && notArray(arrayOrString)){
+		throw new Error('Input must be array or string.');
+	}
 	return (arrayOrString.length === 0);
 }
 

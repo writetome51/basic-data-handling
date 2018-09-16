@@ -7,28 +7,23 @@ var values = [
 ];
 var expectedTypes = [
     'number', 'string', 'number', 'string', 'undefined', 'function', 'boolean', 'boolean',
-    'array', 'object', 'object', 'object'
+    'object', 'object', 'object', 'object'
 ];
-var expectedTypeMultiples = [
-    ['number', 'string'], ['number', 'string'], ['number', 'string'], ['number', 'string'],
-    ['undefined', 'function'], ['undefined', 'function'], ['boolean', 'string'], ['boolean', 'string'],
-    ['array', 'object'], ['array', 'object'], ['array', 'object'], ['array', 'object']
-];
-var expectedTypesThatAreWrong = [
-    'string', 'number', 'string', 'number', 'object', 'object', 'number',
-    'number', 'boolean', 'array', 'undefined', 'undefined'
-];
-var expectedTypeMultiplesThatAreWrong = [
-    ['boolean', 'object'], ['boolean', 'object'], ['boolean', 'object'], ['boolean', 'object'],
-    ['array', 'object'], ['undefined', 'object'], ['number', 'string'], ['number', 'string'],
-    ['number', 'boolean'], ['number', 'boolean'], ['number', 'boolean'], ['number', 'boolean']
-];
-// Test 1:
+var typesNotNumber = ['h/[]@#$', '100', true, function () {
+    }, [], {}, null, undefined];
+var typesNotString = [false, 100, 1.111, null, undefined, [], {}, function () {
+    }];
+var typesNotBoolean = [1, 1.11, null, undefined, [], {}, function () {
+    }, 'lll'];
+var typesNotObject = [1, undefined, '', 0.06, function () {
+    }, true];
+var typesNotFunction = [1, 1.11, null, undefined, [], {}, '12', true, false];
+// Test 1: Prove that it can correctly identify all the data types.
 // This part must not trigger error:
 var errorTriggered = false;
-for (var i = 0; i < values.length; ++i) {
+for (var i_1 = 0; i_1 < values.length; ++i_1) {
     try {
-        checkTypeOf_1.checkTypeOf(values[i], expectedTypes[i]);
+        checkTypeOf_1.checkTypeOf(values[i_1], expectedTypes[i_1]);
     }
     catch (e) {
         errorTriggered = true;
@@ -38,48 +33,82 @@ if (errorTriggered)
     console.log('test 1: failed.');
 else
     console.log('test 1: passed.');
-// Test 2:
-// This part must not trigger error:
-errorTriggered = false;
-for (var i = 0; i < values.length; ++i) {
+// Test 2: Prove it can correctly identify what is NOT a number.
+// This part must trigger error for each item in typesNotNumber to pass:
+var errorsTriggered = 0, i = -1;
+while (++i < typesNotNumber.length) {
     try {
-        checkTypeOf_1.checkTypeOf(values[i], expectedTypeMultiples[i]);
+        checkTypeOf_1.checkTypeOf(typesNotNumber[i], 'number');
     }
     catch (e) {
-        errorTriggered = true;
+        ++errorsTriggered;
     }
 }
-if (errorTriggered)
-    console.log('test 2: failed.');
+if (errorsTriggered === typesNotNumber.length)
+    console.log('test 2: passed');
 else
-    console.log('test 2: passed.');
-//Test 3:
-// This part must trigger errors to pass:
-errorTriggered = false;
-for (var i = 0; i < values.length; ++i) {
+    console.log('test 2: failed.');
+//Test 3: Prove it can correctly identify what is NOT a string.
+// This part must trigger error for each item in typesNotString to pass:
+errorsTriggered = 0;
+i = -1;
+while (++i < typesNotString.length) {
     try {
-        checkTypeOf_1.checkTypeOf(values[i], expectedTypesThatAreWrong[i]);
+        checkTypeOf_1.checkTypeOf(typesNotString[i], 'string');
     }
     catch (e) {
-        errorTriggered = true;
+        ++errorsTriggered;
     }
 }
-if (errorTriggered)
-    console.log('test 3: passed.');
+if (errorsTriggered === typesNotString.length)
+    console.log('test 3: passed');
 else
     console.log('test 3: failed.');
-// Test 4:
-// This part must trigger errors to pass:
-errorTriggered = false;
-for (var i = 0; i < values.length; ++i) {
+//Test 4: Prove it can correctly identify what is NOT a boolean.
+// This part must trigger error for each item in typesNotBoolean to pass:
+errorsTriggered = 0;
+i = -1;
+while (++i < typesNotBoolean.length) {
     try {
-        checkTypeOf_1.checkTypeOf(values[i], expectedTypeMultiplesThatAreWrong[i]);
+        checkTypeOf_1.checkTypeOf(typesNotBoolean[i], 'boolean');
     }
     catch (e) {
-        errorTriggered = true;
+        ++errorsTriggered;
     }
 }
-if (errorTriggered)
-    console.log('test 4: passed.');
+if (errorsTriggered === typesNotBoolean.length)
+    console.log('test 4: passed');
 else
     console.log('test 4: failed.');
+//Test 5: Prove it can correctly identify what is NOT an object.
+// This part must trigger error for each item in typesNotObject to pass:
+errorsTriggered = 0;
+i = -1;
+while (++i < typesNotObject.length) {
+    try {
+        checkTypeOf_1.checkTypeOf(typesNotObject[i], 'object');
+    }
+    catch (e) {
+        ++errorsTriggered;
+    }
+}
+if (errorsTriggered === typesNotObject.length)
+    console.log('test 5: passed');
+else
+    console.log('test 5: failed.');
+//Test 6: Prove it can correctly identify what is NOT an function.
+// This part must trigger error for each item in typesNotFunction to pass:
+errorsTriggered = 0;
+i = -1;
+while (++i < typesNotFunction.length) {
+    try {
+        checkTypeOf_1.checkTypeOf(typesNotFunction[i], 'function');
+    }
+    catch (e) {
+        ++errorsTriggered;
+    }
+}
+if (errorsTriggered === typesNotFunction.length)
+    console.log('test 6: passed');
+else
+    console.log('test 6: failed.');
