@@ -1,6 +1,6 @@
 {
   "name": "basic-data-handling",
-  "version": "1.0.5",
+  "version": "1.0.5.1",
   "description": "For basic JavaScript data-type checking and checking content",
   "main": "",
   "scripts": {
