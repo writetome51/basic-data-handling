@@ -1,6 +1,6 @@
 {
   "name": "basic-data-handling",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "For basic JavaScript data-type checking and checking content",
   "main": "",
   "scripts": {
@@ -17,7 +17,7 @@
 	"typescript"
   ],
   "author": "Steve Thompson",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/writetome51/basic-data-handling/issues"
   },
