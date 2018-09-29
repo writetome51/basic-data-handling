@@ -51,7 +51,10 @@ results = [];
 for (var i = 0; i < nonFloats.length; ++i) {
     results.push(isInteger_isFloat_1.isFloat(nonFloats[i]));
 }
-if (results.includes(true))
+if (results.includes(undefined))
+    console.log('test 5: failed');
+if (results.length === nonFloats.length &&
+    results.includes(true))
     console.log('test 5: failed.');
 else
     console.log('test 5: passed.');
@@ -61,6 +64,8 @@ results = [];
 for (var i = 0; i < floats.length; ++i) {
     results.push(isInteger_isFloat_1.isFloat(floats[i]));
 }
+if (results.includes(undefined))
+    console.log('test 6: failed');
 if (results.includes(false))
     console.log('test 6: failed.');
 else

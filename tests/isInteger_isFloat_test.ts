@@ -48,16 +48,16 @@ if (results.includes(true)) console.log('test 4: failed.');
 else console.log('test 4: passed.');
 
 
-
 //Test 5:
 // Must return false every time to pass.
 results = [];
 for (let i = 0; i < nonFloats.length; ++i) {
 	results.push(isFloat(nonFloats[i]));
 }
-if (results.includes(true)) console.log('test 5: failed.');
+if (results.includes(undefined)) console.log('test 5: failed');
+if (results.length === nonFloats.length &&
+	results.includes(true)) console.log('test 5: failed.');
 else console.log('test 5: passed.');
-
 
 
 //Test 6:
@@ -66,5 +66,6 @@ results = [];
 for (let i = 0; i < floats.length; ++i) {
 	results.push(isFloat(floats[i]));
 }
+if (results.includes(undefined)) console.log('test 6: failed');
 if (results.includes(false)) console.log('test 6: failed.');
 else console.log('test 6: passed.');

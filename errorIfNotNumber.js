@@ -1,7 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var checkTypeOf_1 = require("./checkTypeOf");
+var isFiniteNumber_1 = require("./isFiniteNumber");
 function errorIfNotNumber(variable) {
-    checkTypeOf_1.checkTypeOf(variable, 'number');
+    if (isFiniteNumber_1.isFiniteNumber(variable))
+        return;
+    else
+        throw new Error('Input must be number');
 }
 exports.errorIfNotNumber = errorIfNotNumber;
