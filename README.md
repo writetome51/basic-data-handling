@@ -36,6 +36,8 @@ isArray(data)  // import {isArray} from 'basic-data-handling/isArray_notArray'
 
 notArray(data)  //  import {notArray} from 'basic-data-handling/isArray_notArray'
 
+isFiniteNumber(data) // import {isFiniteNumber} from 'basic-data-handling/isFiniteNumber'
+
 isInteger(data)  // import {isInteger} from 'basic-data-handling/isInteger_isFloat'
 
 notInteger(data)  //  import {notInteger} from 'basic-data-handling/isInteger_isFloat'
