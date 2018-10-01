@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="15d01238-c87f-4532-8511-7e73002bc630" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isInteger_isFloat.js" beforeDir="false" afterPath="$PROJECT_DIR$/isInteger_isFloat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isInteger_isFloat.ts" beforeDir="false" afterPath="$PROJECT_DIR$/isInteger_isFloat.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -144,54 +146,64 @@
     <session id="-890166352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="7" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="js" value="3" />
-          <entry key="json" value="7" />
-          <entry key="md" value="3" />
-          <entry key="ts" value="114" />
+          <entry key="js" value="4" />
+          <entry key="json" value="9" />
+          <entry key="md" value="4" />
+          <entry key="ts" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="3" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="TypeScript" value="114" />
+          <entry key="JSON" value="9" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="TypeScript" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="9" />
+          <entry key="TypeScriptServerServiceImpl" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="7" />
-          <entry key="md" value="859" />
-          <entry key="ts" value="5262" />
+          <entry key="md" value="950" />
+          <entry key="ts" value="5430" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="7" />
-          <entry key="PLAIN_TEXT" value="859" />
-          <entry key="TypeScript" value="5262" />
+          <entry key="PLAIN_TEXT" value="950" />
+          <entry key="TypeScript" value="5430" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/isInteger_isFloat.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -227,13 +239,11 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/isInteger_isFloat.ts" />
         <option value="$PROJECT_DIR$/is_not_array.ts" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/isArray_notArray.ts" />
         <option value="$PROJECT_DIR$/tests/isArray_notArray_test.ts" />
         <option value="$PROJECT_DIR$/tests/isEmpty_notEmpty_test.ts" />
-        <option value="$PROJECT_DIR$/tests/isInteger_isFloat_test.ts" />
         <option value="$PROJECT_DIR$/checkTypeOf copy.ts" />
         <option value="$PROJECT_DIR$/errorIfNotFloat.ts" />
         <option value="$PROJECT_DIR$/checkTypeOf copy 3.ts" />
@@ -247,9 +257,11 @@
         <option value="$PROJECT_DIR$/isEmpty_notEmpty.ts" />
         <option value="$PROJECT_DIR$/checkTypeOf.ts" />
         <option value="$PROJECT_DIR$/errorIfNotFunction.ts" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/errorIfNotIntegerZeroOrGreater.ts" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/tests/isInteger_isFloat_test.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/isInteger_isFloat.ts" />
       </list>
     </option>
   </component>
@@ -273,7 +285,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="833" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -281,7 +293,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,10 +300,16 @@
               <item name="basic-data-handling" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-data-handling" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="basic-data-handling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic-data-handling" type="462c0819:PsiDirectoryNode" />
+              <item name="isInteger_isFloat.ts" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,10 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.isEmpty_notEmpty_test.js">
-    <configuration name="checkTypeOf.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="checkTypeOf.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.isInteger_isFloat.js">
     <configuration name="checkTypeOf_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="checkTypeOf_test.js" working-dir="$PROJECT_DIR$/tests">
       <method v="2" />
     </configuration>
@@ -340,23 +354,26 @@
     <configuration name="isEmpty_notEmpty_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="isEmpty_notEmpty_test.js" working-dir="$PROJECT_DIR$/tests">
       <method v="2" />
     </configuration>
+    <configuration name="isInteger_isFloat.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="isInteger_isFloat.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="isInteger_isFloat_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="isInteger_isFloat_test.js" working-dir="$PROJECT_DIR$/tests">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.checkTypeOf.js" />
       <item itemvalue="Node.js.checkTypeOf_test.js" />
       <item itemvalue="Node.js.isArray_notArray_test.js" />
       <item itemvalue="Node.js.isEmpty_notEmpty_test.js" />
       <item itemvalue="Node.js.isInteger_isFloat_test.js" />
+      <item itemvalue="Node.js.isInteger_isFloat.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.isEmpty_notEmpty_test.js" />
+        <item itemvalue="Node.js.isInteger_isFloat.js" />
         <item itemvalue="Node.js.isInteger_isFloat_test.js" />
+        <item itemvalue="Node.js.isEmpty_notEmpty_test.js" />
         <item itemvalue="Node.js.isArray_notArray_test.js" />
         <item itemvalue="Node.js.checkTypeOf_test.js" />
-        <item itemvalue="Node.js.checkTypeOf.js" />
       </list>
     </recent_temporary>
   </component>
@@ -393,29 +410,32 @@
       <workItem from="1537328315437" duration="291000" />
       <workItem from="1537676259178" duration="218000" />
       <workItem from="1537687738874" duration="9000" />
+      <workItem from="1538258287578" duration="680000" />
+      <workItem from="1538358588343" duration="542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30661000" />
+    <option name="totallyTimeSpent" value="31883000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="833" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="831" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68277574" visible="true" weight="0.20386267" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68277574" visible="true" weight="0.20958512" />
       <window_info id="Structure" order="1" sideWeight="0.50139666" side_tool="true" weight="0.2634943" />
       <window_info id="Favorites" order="2" sideWeight="0.3172243" side_tool="true" weight="0.26145172" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.27137548" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.40250698" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989429" visible="true" weight="0.40223464" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010571" side_tool="true" weight="0.4857497" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.47206703" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.34261838" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.34217876" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.3231198" />
       <window_info anchor="bottom" id="Duplicates" order="12" weight="0.32925472" />
@@ -460,6 +480,8 @@
         <option value="$PROJECT_DIR$/tests/checkTypeOf_test.js" />
         <option value="$PROJECT_DIR$/errorIfNotFunction.js" />
         <option value="$PROJECT_DIR$/errorIfNotIntegerZeroOrGreater.js" />
+        <option value="$PROJECT_DIR$/isFiniteNumber.js" />
+        <option value="$PROJECT_DIR$/errorIfNotNumber.js" />
       </list>
     </option>
   </component>
@@ -520,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/checkTypeOf_test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/isEmpty_notEmpty.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -541,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/isInteger_isFloat_test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/isArray_notArray_test.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -559,13 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isInteger_isFloat.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -590,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/errorIfNotNumber.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/errorIfNotObject.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -615,13 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -646,10 +633,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/checkTypeOf_test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isFiniteNumber.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorIfNotNumber.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/isInteger_isFloat_test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="38" column="88" selection-start-line="38" selection-start-column="88" selection-end-line="38" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isFiniteNumber.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isInteger_isFloat.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>

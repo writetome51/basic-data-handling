@@ -15,5 +15,5 @@ export function notInteger(data): boolean {
 
 // if data has a .0 at the end (i.e, 1.0), this returns false.
 export function isFloat(data): boolean {
-	return (notInteger(data) && typeof data === 'number');
+	return (isFiniteNumber(data) && notInteger(data));
 }

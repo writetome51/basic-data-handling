@@ -13,6 +13,6 @@ function notInteger(data) {
 exports.notInteger = notInteger;
 // if data has a .0 at the end (i.e, 1.0), this returns false.
 function isFloat(data) {
-    return (notInteger(data) && typeof data === 'number');
+    return (isFiniteNumber_1.isFiniteNumber(data) && notInteger(data));
 }
 exports.isFloat = isFloat;
