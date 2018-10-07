@@ -1,9 +1,9 @@
 import { isArray, notArray } from '../isArray_notArray';
 
 
-let nonArrayValues = [1, '', undefined, null, false, {}, () => {
+let nonArrayValues = [1, '', 'hello', undefined, null, false, {}, () => {
 }];
-let valuesThatAreArrays = [[], [1], ['', 1, false, {}]];
+let valuesThatAreArrays = [[], [1], ['', 1, false, {}], [{}, {}]];
 let results = [];
 
 
@@ -12,9 +12,9 @@ let results = [];
 for (let i = 0; i < nonArrayValues.length; ++i) {
 	results.push(isArray(nonArrayValues[i]));
 }
+if (results.includes(undefined)) console.log('test 1: failed.');
 if (results.includes(true)) console.log('test 1: failed.');
-else console.log('test 1: passed.');
-
+else if (results.length === nonArrayValues.length) console.log('test 1: passed.');
 
 
 // Test 2:
@@ -23,8 +23,10 @@ results = [];
 for (let i = 0; i < valuesThatAreArrays.length; ++i) {
 	results.push(isArray(valuesThatAreArrays[i]));
 }
-if (results.includes(false)) console.log('test 2: failed.');
-else console.log('test 2: passed.');
+if (results.length === valuesThatAreArrays.length && !(results.includes(undefined))
+	&& !(results.includes(false)) && results.includes(true))
+	console.log('test 2: passed.');
+else console.log('test 2: failed.');
 
 
 // Test 3:
@@ -33,15 +35,21 @@ results = [];
 for (let i = 0; i < valuesThatAreArrays.length; ++i) {
 	results.push(notArray(valuesThatAreArrays[i]));
 }
-if (results.includes(true)) console.log('test 3: failed.');
-else console.log('test 3: passed.');
+if (results.length === valuesThatAreArrays.length && !(results.includes(undefined))
+	&& !(results.includes(true)) && results.includes(false))
+	console.log('test 3: passed.');
+else console.log('test 3: failed.');
 
 
 //Test 4:
 // This must return true each time to pass:
 results = [];
-for (let i = 0; i < valuesThatAreArrays.length; ++i) {
+for (let i = 0; i < nonArrayValues.length; ++i) {
 	results.push(notArray(nonArrayValues[i]));
 }
-if (results.includes(false)) console.log('test 4: failed.');
-else console.log('test 4: passed.');
+if (results.length === nonArrayValues.length && !(results.includes(undefined))
+	&& !(results.includes(false)) && results.includes(true))
+	console.log('test 4: passed.');
+else console.log('test 4: failed.');
+
+

@@ -44,3 +44,29 @@ catch (e) {
 }
 if (errorTriggered) console.log('test 9: passed.');
 else console.log('test 9: failed.');
+
+
+// Test 10:
+// If error is triggered, it passes:
+errorTriggered = false;
+try{
+	notEmpty();
+}
+catch (e) {
+	errorTriggered = true;
+}
+if (errorTriggered) console.log('test 10: passed.');
+else console.log('test 10: failed.');
+
+
+// Test 11:
+// If error is triggered, it passes:
+errorTriggered = false;
+try{
+	notEmpty(0);
+}
+catch (e) {
+	errorTriggered = true;
+}
+if (errorTriggered) console.log('test 11: passed.');
+else console.log('test 11: failed.');

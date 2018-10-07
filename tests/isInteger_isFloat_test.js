@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var isInteger_isFloat_1 = require("../isInteger_isFloat");
-var nonIntegers = [1.01, 0.001, '1', '0.001', true, [], {}, null];
-var integers = [1.0, 1, 1000, 0.0];
-var floats = [1.01, 0.001, 100.2];
-var nonFloats = ['0.01', true, [], {}, null];
+var nonIntegers = [1.01, 0.001, '1', '', '0.001', true, [], {}, null, undefined, Infinity, NaN];
+var integers = [1.0, 1, 1000, 0.0, -1.0, -2000];
+var floats = [1.01, 0.001, 100.2, -11.5, -0.555];
+var nonFloats = ['0.01', '1', '', true, [], {}, null, undefined, Infinity, NaN];
 var results = [];
 // Test 1:
 // Must return false every time to pass.
@@ -53,8 +53,7 @@ for (var i = 0; i < nonFloats.length; ++i) {
 }
 if (results.includes(undefined))
     console.log('test 5: failed');
-if (results.length === nonFloats.length &&
-    results.includes(true))
+if (results.includes(true))
     console.log('test 5: failed.');
 else
     console.log('test 5: passed.');

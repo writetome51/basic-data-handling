@@ -1,10 +1,10 @@
 import { isFloat, isInteger, notInteger } from '../isInteger_isFloat';
 
 
-let nonIntegers = [1.01, 0.001, '1', '0.001', true, [], {}, null];
-let integers = [1.0, 1, 1000, 0.0];
-let floats = [1.01, 0.001, 100.2];
-let nonFloats = ['0.01', true, [], {}, null];
+let nonIntegers = [1.01, 0.001, '1', '', '0.001', true, [], {}, null, undefined, Infinity, NaN];
+let integers = [1.0, 1, 1000, 0.0, -1.0, -2000];
+let floats = [1.01, 0.001, 100.2, -11.5, -0.555];
+let nonFloats = ['0.01','1', '', true, [], {}, null, undefined, Infinity, NaN];
 
 let results = [];
 
@@ -55,8 +55,7 @@ for (let i = 0; i < nonFloats.length; ++i) {
 	results.push(isFloat(nonFloats[i]));
 }
 if (results.includes(undefined)) console.log('test 5: failed');
-if (results.length === nonFloats.length &&
-	results.includes(true)) console.log('test 5: failed.');
+if (results.includes(true)) console.log('test 5: failed.');
 else console.log('test 5: passed.');
 
 
