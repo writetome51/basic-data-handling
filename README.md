@@ -26,6 +26,8 @@ errorIfNotNumber(variable) // import {errorIfNotNumber} from 'basic-data-handlin
 
 errorIfNotObject(variable) // import {errorIfNotObject} from 'basic-data-handling/errorIfNotObject'
 
+errorIfNotPrimitive(variable) // import {errorIfNotPrimitive} from 'basic-data-handling/errorIfNotPrimitive'
+
 errorIfNotString(variable) // import {errorIfNotString} from 'basic-data-handling/errorIfNotString'
 
 
