@@ -12,9 +12,13 @@
   },
   "keywords": [
     "basic",
+    "type-checking",
+    "strict",
+    "type",
+    "check",
     "data-type",
     "functions",
-	"typescript"
+    "typescript"
   ],
   "author": "Steve Thompson",
   "license": "MIT",

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15d01238-c87f-4532-8511-7e73002bc630" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/isArray_notArray_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/isArray_notArray_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/isArray_notArray_test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/isArray_notArray_test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/isInteger_isFloat_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/isInteger_isFloat_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/isInteger_isFloat_test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/isInteger_isFloat_test.ts" afterDir="false" />
-    </list>
+    <list default="true" id="15d01238-c87f-4532-8511-7e73002bc630" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -148,7 +142,7 @@
     <session id="-890166352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="4" />
@@ -162,7 +156,7 @@
           <entry key="js" value="4" />
           <entry key="json" value="11" />
           <entry key="md" value="5" />
-          <entry key="ts" value="133" />
+          <entry key="ts" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -170,7 +164,7 @@
           <entry key="JSON" value="11" />
           <entry key="JavaScript" value="4" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="TypeScript" value="133" />
+          <entry key="TypeScript" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -182,30 +176,20 @@
         <counts>
           <entry key="json" value="9" />
           <entry key="md" value="950" />
-          <entry key="ts" value="5513" />
+          <entry key="ts" value="5659" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="9" />
           <entry key="PLAIN_TEXT" value="950" />
-          <entry key="TypeScript" value="5513" />
+          <entry key="TypeScript" value="5659" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/isArray_notArray_test.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -244,7 +228,6 @@
         <option value="$PROJECT_DIR$/is_not_array.ts" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/isArray_notArray.ts" />
-        <option value="$PROJECT_DIR$/tests/isEmpty_notEmpty_test.ts" />
         <option value="$PROJECT_DIR$/checkTypeOf copy.ts" />
         <option value="$PROJECT_DIR$/errorIfNotFloat.ts" />
         <option value="$PROJECT_DIR$/checkTypeOf copy 3.ts" />
@@ -264,6 +247,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/tests/isInteger_isFloat_test.ts" />
         <option value="$PROJECT_DIR$/tests/isArray_notArray_test.ts" />
+        <option value="$PROJECT_DIR$/tests/isEmpty_notEmpty_test.ts" />
       </list>
     </option>
   </component>
@@ -308,12 +292,6 @@
               <item name="basic-data-handling" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="basic-data-handling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-data-handling" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="isArray_notArray_test.ts" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -352,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.isArray_notArray_test.js">
+  <component name="RunManager" selected="Node.js.isEmpty_notEmpty_test.js">
     <configuration name="checkTypeOf_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="checkTypeOf_test.js" working-dir="$PROJECT_DIR$/tests">
       <method v="2" />
     </configuration>
@@ -377,11 +355,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.isEmpty_notEmpty_test.js" />
+        <item itemvalue="Node.js.checkTypeOf_test.js" />
         <item itemvalue="Node.js.isArray_notArray_test.js" />
         <item itemvalue="Node.js.isInteger_isFloat_test.js" />
         <item itemvalue="Node.js.isInteger_isFloat.js" />
-        <item itemvalue="Node.js.isEmpty_notEmpty_test.js" />
-        <item itemvalue="Node.js.checkTypeOf_test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -420,12 +398,12 @@
       <workItem from="1537687738874" duration="9000" />
       <workItem from="1538258287578" duration="680000" />
       <workItem from="1538358588343" duration="1094000" />
-      <workItem from="1538871378135" duration="787000" />
+      <workItem from="1538871378135" duration="2363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33222000" />
+    <option name="totallyTimeSpent" value="34798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
@@ -436,7 +414,7 @@
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.27137548" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" visible="true" weight="0.27793297" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.27793297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/isEmpty_notEmpty_test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkTypeOf.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -592,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/checkTypeOf_test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/isFiniteNumber.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -609,38 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/isFiniteNumber.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isEmpty_notEmpty.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isArray_notArray.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/errorIfNotInteger.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isInteger_isFloat.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -686,10 +622,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/isArray_notArray.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/isArray_notArray_test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/checkTypeOf_test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isEmpty_notEmpty.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/isEmpty_notEmpty_test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="37" lean-forward="true" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isFiniteNumber.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isInteger_isFloat.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
