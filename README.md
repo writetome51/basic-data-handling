@@ -2,7 +2,6 @@ This a super-simple package. Sorry, there's no index.js file, but you really don
 To use any one of the functions in your files, just include its import statement (commented on the
 right of each function).
 All the files in this package are clearly named for what functions they contain.
-Everything is in TypeScript, with transpiled JavaScript files included.
 
 Contains these functions:
 
@@ -22,7 +21,15 @@ errorIfNotFunction(variable) // import {errorIfNotFunction} from 'basic-data-han
 
 errorIfNotInteger(variable) // import {errorIfNotInteger} from 'basic-data-handling/errorIfNotInteger'
 
+errorIfNotIntegerZeroOrGreater(variable) // import {errorIfNotIntegerZeroOrGreater} from 
+'basic-data-handling/errorIfNotIntegerZeroOrGreater'
+
+-
+// This errors if variable is not finite number:
+
 errorIfNotNumber(variable) // import {errorIfNotNumber} from 'basic-data-handling/errorIfNotNumber'
+
+-
 
 errorIfNotObject(variable) // import {errorIfNotObject} from 'basic-data-handling/errorIfNotObject'
 
@@ -34,17 +41,23 @@ errorIfNotString(variable) // import {errorIfNotString} from 'basic-data-handlin
 
 // All these return boolean:
 
-isArray(data)  // import {isArray} from 'basic-data-handling/isArray_notArray'
+isArray(variable)  // import {isArray} from 'basic-data-handling/isArray_notArray'
 
-notArray(data)  //  import {notArray} from 'basic-data-handling/isArray_notArray'
+notArray(variable)  //  import {notArray} from 'basic-data-handling/isArray_notArray'
 
-isFiniteNumber(data) // import {isFiniteNumber} from 'basic-data-handling/isFiniteNumber'
+isString(variable)   //  import {isString} from 'basic-data-handling/isString_notString'
 
-isInteger(data)  // import {isInteger} from 'basic-data-handling/isInteger_isFloat'
+notString(variable)   //  import {notString} from 'basic-data-handling/isString_notString'
 
-notInteger(data)  //  import {notInteger} from 'basic-data-handling/isInteger_isFloat'
+isFiniteNumber(variable) // import {isFiniteNumber} from 'basic-data-handling/isFiniteNumber'
 
-isFloat(data)  // import {isFloat} from 'basic-data-handling/isInteger_isFloat'
+notFiniteNumber(variable) // import {notFiniteNumber} from 'basic-data-handling/isFiniteNumber'
+
+isInteger(variable)  // import {isInteger} from 'basic-data-handling/isInteger_isFloat'
+
+notInteger(variable)  //  import {notInteger} from 'basic-data-handling/isInteger_isFloat'
+
+isFloat(variable)  // import {isFloat} from 'basic-data-handling/isInteger_isFloat'
 
 isEmpty(arrayOrString)  // import {isEmpty} from 'basic-data-handling/isEmpty_notEmpty'
 

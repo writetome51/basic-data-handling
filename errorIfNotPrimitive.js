@@ -7,7 +7,7 @@ function errorIfNotPrimitive(variable) {
     var primitives = ['number', 'string', 'boolean'];
     // @ts-ignore
     if (!(primitives.includes(typeof variable))) {
-        throw new Error('Input must be a primitive type.');
+        throw new Error('Input must be either a number, string, or boolean');
     }
 }
 exports.errorIfNotPrimitive = errorIfNotPrimitive;

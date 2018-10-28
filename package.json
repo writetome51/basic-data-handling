@@ -1,6 +1,6 @@
 {
   "name": "basic-data-handling",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "For basic JavaScript data-type checking and checking content",
   "main": "",
   "scripts": {
@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/writetome51/basic-data-handling/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/writetome51/basic-data-handling#readme",
   "dependencies": {
   }
 }

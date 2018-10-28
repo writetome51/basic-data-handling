@@ -7,6 +7,6 @@ export function errorIfNotPrimitive(variable): void {
 	let primitives = ['number', 'string', 'boolean'];
 	// @ts-ignore
 	if (!(primitives.includes(typeof variable))) {
-		throw new Error('Input must be a primitive type.');
+		throw new Error('Input must be either a number, string, or boolean');
 	}
 }
