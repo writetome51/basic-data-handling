@@ -1,7 +1,7 @@
 {
   "name": "basic-data-handling",
-  "version": "1.0.13",
-  "description": "For basic JavaScript data-type checking and checking content",
+  "version": "1.0.14",
+  "description": "package contains functions that simply check if the passed argument meets a data type requirement",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

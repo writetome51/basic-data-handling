@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d01238-c87f-4532-8511-7e73002bc630" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/isString_tests.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errorIfNotNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/errorIfNotNumber.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errorIfNotNumber.ts" beforeDir="false" afterPath="$PROJECT_DIR$/errorIfNotNumber.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errorIfNotPrimitive.js" beforeDir="false" afterPath="$PROJECT_DIR$/errorIfNotPrimitive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errorIfNotPrimitive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/errorIfNotPrimitive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isFiniteNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/isFiniteNumber.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isFiniteNumber.ts" beforeDir="false" afterPath="$PROJECT_DIR$/isFiniteNumber.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -153,62 +145,65 @@
     <session id="-890166352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.0" value="8" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="9" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="5" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="js" value="9" />
-          <entry key="json" value="13" />
-          <entry key="md" value="7" />
-          <entry key="ts" value="159" />
+          <entry key="js" value="11" />
+          <entry key="json" value="14" />
+          <entry key="md" value="9" />
+          <entry key="ts" value="170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="13" />
-          <entry key="JavaScript" value="9" />
-          <entry key="Markdown" value="1" />
+          <entry key="JSON" value="14" />
+          <entry key="JavaScript" value="11" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="TypeScript" value="159" />
+          <entry key="TypeScript" value="170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="14" />
+          <entry key="TypeScriptServerServiceImpl" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="19" />
-          <entry key="md" value="1171" />
-          <entry key="ts" value="6105" />
+          <entry key="md" value="1703" />
+          <entry key="ts" value="6381" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="19" />
-          <entry key="Markdown" value="179" />
+          <entry key="Markdown" value="711" />
           <entry key="PLAIN_TEXT" value="992" />
-          <entry key="TypeScript" value="6105" />
+          <entry key="TypeScript" value="6381" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/isString_tests.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="330">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -273,11 +268,12 @@
         <option value="$PROJECT_DIR$/tests/isEmpty_notEmpty_test.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/isString_notString.ts" />
-        <option value="$PROJECT_DIR$/errorIfNotNumber.ts" />
         <option value="$PROJECT_DIR$/errorIfNotPrimitive.ts" />
         <option value="$PROJECT_DIR$/isFiniteNumber.ts" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tests/isString_tests.ts" />
+        <option value="$PROJECT_DIR$/errorIfNotNumber.ts" />
+        <option value="$PROJECT_DIR$/errorIfNotSet.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -317,11 +313,6 @@
               <item name="basic-data-handling" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-data-handling" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="basic-data-handling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-data-handling" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -360,10 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.isArray_notArray_test.js">
-    <configuration name="checkTypeOf_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="checkTypeOf_test.js" working-dir="$PROJECT_DIR$/tests">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.isString_tests.js">
     <configuration name="errorIfNotPrimitive.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="errorIfNotPrimitive.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -376,20 +364,23 @@
     <configuration name="isInteger_isFloat_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="isInteger_isFloat_test.js" working-dir="$PROJECT_DIR$/tests">
       <method v="2" />
     </configuration>
+    <configuration name="isString_tests.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="isString_tests.js" working-dir="$PROJECT_DIR$/tests">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Node.js.checkTypeOf_test.js" />
       <item itemvalue="Node.js.isArray_notArray_test.js" />
       <item itemvalue="Node.js.isEmpty_notEmpty_test.js" />
       <item itemvalue="Node.js.isInteger_isFloat_test.js" />
       <item itemvalue="Node.js.errorIfNotPrimitive.js" />
+      <item itemvalue="Node.js.isString_tests.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.isString_tests.js" />
         <item itemvalue="Node.js.isArray_notArray_test.js" />
         <item itemvalue="Node.js.isEmpty_notEmpty_test.js" />
         <item itemvalue="Node.js.isInteger_isFloat_test.js" />
         <item itemvalue="Node.js.errorIfNotPrimitive.js" />
-        <item itemvalue="Node.js.checkTypeOf_test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -431,31 +422,32 @@
       <workItem from="1538871378135" duration="2363000" />
       <workItem from="1538888921518" duration="745000" />
       <workItem from="1538892584744" duration="1219000" />
-      <workItem from="1540685792089" duration="2908000" />
+      <workItem from="1540685792089" duration="5081000" />
+      <workItem from="1550103873586" duration="1114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39670000" />
+    <option name="totallyTimeSpent" value="42957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68277574" visible="true" weight="0.22103004" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68277574" visible="true" weight="0.14377682" />
       <window_info id="Structure" order="1" sideWeight="0.50139666" side_tool="true" weight="0.2634943" />
       <window_info id="Favorites" order="2" sideWeight="0.3172243" side_tool="true" weight="0.26145172" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.27137548" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" visible="true" weight="0.27757126" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.27757126" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010571" side_tool="true" weight="0.4857497" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.47206703" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.3605948" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" visible="true" weight="0.2267658" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.3231198" />
       <window_info anchor="bottom" id="Duplicates" order="12" weight="0.32925472" />
@@ -505,6 +497,8 @@
         <option value="$PROJECT_DIR$/errorIfNotPrimitive.js" />
         <option value="$PROJECT_DIR$/isString_notString.js" />
         <option value="$PROJECT_DIR$/tests/isString_tests.js" />
+        <option value="$PROJECT_DIR$/errorIfNotSet.js" />
+        <option value="$PROJECT_DIR$/isSet_notSet.js" />
       </list>
     </option>
   </component>
@@ -603,13 +597,6 @@
     <entry file="file://$PROJECT_DIR$/isFiniteNumber.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/errorIfNotString.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/isArray_notArray.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -659,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/errorIfNotFloat.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -694,45 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/isFiniteNumber.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1127">
-            <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/errorIfNotNumber.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/errorIfNotPrimitive.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/isInteger_isFloat_test.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-199">
@@ -742,8 +683,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/isArray_notArray_test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="210">
+          <caret line="14" column="64" lean-forward="true" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/isString_tests.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
@@ -754,10 +702,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/isString_tests.ts">
+    <entry file="file://$PROJECT_DIR$/isFiniteNumber.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorIfNotNumber.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isSet_notSet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isSet_notSet.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorIfNotPrimitive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorIfNotSet.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorIfNotSet.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorIfNotString.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
         </state>
       </provider>
     </entry>

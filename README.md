@@ -1,64 +1,100 @@
-This a super-simple package. Sorry, there's no index.js file, but you really don't need it.
-To use any one of the functions in your files, just include its import statement (commented on the
-right of each function).
-All the files in this package are clearly named for what functions they contain.
+# basic-data-handling
 
-Contains these functions:
+This package contains functions that simply check if the passed argument meets a  
+data type requirement.
 
+To use any one of the functions below...  
+If using TypeScript, just include its import statement  
+(commented below each function).  
+If using plain JavaScript, turn that 'import' statement into a  
+'require' statement like so:
 
-// Functions that trigger fatal error if variable is not required type:
-// They all return void:
+import {functionName} from 'basic-data-handling/fileContainingFunction'  
 
-checkTypeOf(variable, expectedType) // import {checkTypeOf} from 'basic-data-handling/checkTypeOf'
+becomes this:
 
-errorIfNotArray(variable) // import {errorIfNotArray} from 'basic-data-handling/errorIfNotArray'
-
-errorIfNotBoolean(variable) // import {errorIfNotBoolean} from 'basic-data-handling/errorIfNotBoolean'
-
-errorIfNotFloat(variable) // import {errorIfNotFloat} from 'basic-data-handling/errorIfNotFloat'
-
-errorIfNotFunction(variable) // import {errorIfNotFunction} from 'basic-data-handling/errorIfNotFunction'
-
-errorIfNotInteger(variable) // import {errorIfNotInteger} from 'basic-data-handling/errorIfNotInteger'
-
-errorIfNotIntegerZeroOrGreater(variable) // import {errorIfNotIntegerZeroOrGreater} from 
-'basic-data-handling/errorIfNotIntegerZeroOrGreater'
-
--
-// This errors if variable is not finite number:
-
-errorIfNotNumber(variable) // import {errorIfNotNumber} from 'basic-data-handling/errorIfNotNumber'
-
--
-
-errorIfNotObject(variable) // import {errorIfNotObject} from 'basic-data-handling/errorIfNotObject'
-
-errorIfNotPrimitive(variable) // import {errorIfNotPrimitive} from 'basic-data-handling/errorIfNotPrimitive'
-
-errorIfNotString(variable) // import {errorIfNotString} from 'basic-data-handling/errorIfNotString'
+var functionName = require('basic-data-handling/fileContainingFunction').functionName;
 
 
+## Functions that trigger fatal error if variable is not <br>required type (they all return void)
 
-// All these return boolean:
+checkTypeOf(variable, expectedType)  
+   // import {checkTypeOf} from 'basic-data-handling/checkTypeOf'
 
-isArray(variable)  // import {isArray} from 'basic-data-handling/isArray_notArray'
+errorIfNotArray(variable)  
+   // import {errorIfNotArray} from 'basic-data-handling/errorIfNotArray'
 
-notArray(variable)  //  import {notArray} from 'basic-data-handling/isArray_notArray'
+errorIfNotBoolean(variable)  
+   // import {errorIfNotBoolean} from 'basic-data-handling/errorIfNotBoolean'
 
-isString(variable)   //  import {isString} from 'basic-data-handling/isString_notString'
+errorIfNotFloat(variable)  
+   // import {errorIfNotFloat} from 'basic-data-handling/errorIfNotFloat'
 
-notString(variable)   //  import {notString} from 'basic-data-handling/isString_notString'
+errorIfNotFunction(variable)  
+   // import {errorIfNotFunction} from 'basic-data-handling/errorIfNotFunction'
 
-isFiniteNumber(variable) // import {isFiniteNumber} from 'basic-data-handling/isFiniteNumber'
+errorIfNotInteger(variable)  
+   // import {errorIfNotInteger} from 'basic-data-handling/errorIfNotInteger'
 
-notFiniteNumber(variable) // import {notFiniteNumber} from 'basic-data-handling/isFiniteNumber'
+errorIfNotIntegerZeroOrGreater(variable)  
+   // import {errorIfNotIntegerZeroOrGreater} from 'basic-data-handling/errorIfNotIntegerZeroOrGreater'
 
-isInteger(variable)  // import {isInteger} from 'basic-data-handling/isInteger_isFloat'
+errorIfNotSet(variable)  
+    // import {errorIfNotSet} from 'basic-data-handling/errorIfNotSet'
 
-notInteger(variable)  //  import {notInteger} from 'basic-data-handling/isInteger_isFloat'
+errorIfNotNumber(variable)  
+   // errors if variable is not finite number.  
+   // import {errorIfNotNumber} from 'basic-data-handling/errorIfNotNumber'  
 
-isFloat(variable)  // import {isFloat} from 'basic-data-handling/isInteger_isFloat'
+errorIfNotObject(variable)   
+   // import {errorIfNotObject} from 'basic-data-handling/errorIfNotObject'
 
-isEmpty(arrayOrString)  // import {isEmpty} from 'basic-data-handling/isEmpty_notEmpty'
+errorIfNotPrimitive(variable)   
+   // import {errorIfNotPrimitive} from 'basic-data-handling/errorIfNotPrimitive'
 
-notEmpty(arrayOrString)  // import {notEmpty} from 'basic-data-handling/isEmpty_notEmpty'
+errorIfNotString(variable)  
+   // import {errorIfNotString} from 'basic-data-handling/errorIfNotString'
+
+
+## Functions that return boolean
+
+isArray(variable)  
+    // import {isArray} from 'basic-data-handling/isArray_notArray'
+
+notArray(variable)  
+   //  import {notArray} from 'basic-data-handling/isArray_notArray'
+
+isString(variable)  
+   //  import {isString} from 'basic-data-handling/isString_notString'
+
+notString(variable)  
+   //  import {notString} from 'basic-data-handling/isString_notString'
+
+isFiniteNumber(variable)  
+   // import {isFiniteNumber} from 'basic-data-handling/isFiniteNumber'
+
+notFiniteNumber(variable)  
+   // import {notFiniteNumber} from 'basic-data-handling/isFiniteNumber'
+
+isInteger(variable)   
+   // import {isInteger} from 'basic-data-handling/isInteger_isFloat'
+
+notInteger(variable)   
+   //  import {notInteger} from 'basic-data-handling/isInteger_isFloat'
+
+isFloat(variable)   
+   // import {isFloat} from 'basic-data-handling/isInteger_isFloat'
+
+isEmpty(arrayOrString)    
+   // import {isEmpty} from 'basic-data-handling/isEmpty_notEmpty'
+
+notEmpty(arrayOrString)  
+   // import {notEmpty} from 'basic-data-handling/isEmpty_notEmpty'
+
+isSet(variable)  
+   // returns true if variable is not undefined or null.  
+   // import {isSet} from  'basic-data-handling/isSet_notSet'
+
+notSet(variable)  
+   // returns true if variable is undefined or null.  
+   // import {notSet}  from 'basic-data-handling/isSet_notSet'
