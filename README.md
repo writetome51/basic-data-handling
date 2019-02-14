@@ -4,17 +4,19 @@ This package contains functions that simply check if the passed argument meets a
 data type requirement.
 
 To use any one of the functions below...  
-If using TypeScript, just include its import statement  
-(commented below each function).  
-If using plain JavaScript, turn that 'import' statement into a  
-'require' statement like so:
 
+<b>If using TypeScript</b>, just include its import statement  
+(commented below each function).  
+
+<b>If using plain JavaScript</b>, turn that 'import' statement into a  
+'require' statement like so:
+```
 import {functionName} from 'basic-data-handling/fileContainingFunction'  
 
 becomes this:
 
 var functionName = require('basic-data-handling/fileContainingFunction').functionName;
-
+```
 
 ## Functions that trigger fatal error if variable is not <br>required type (they all return void)
 
