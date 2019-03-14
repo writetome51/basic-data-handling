@@ -37,3 +37,7 @@ if (isObject_notObject_1.notObject(str))
 else
     console.log('test 8 FAILED');
 
+if (isObject_notObject_1.notObject(function(){return '';}))
+	console.log('test 9 passed');
+else
+	console.log('test 9 FAILED');
