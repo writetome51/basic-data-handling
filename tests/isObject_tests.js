@@ -36,3 +36,4 @@ if (isObject_notObject_1.notObject(str))
     console.log('test 8 passed');
 else
     console.log('test 8 FAILED');
+
