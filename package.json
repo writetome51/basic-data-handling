@@ -1,6 +1,6 @@
 {
   "name": "basic-data-handling",
-  "version": "1.0.16",
+  "version": "2.0.0",
   "description": "package contains functions that simply check if the passed argument meets a data type requirement",
   "main": "",
   "scripts": {
