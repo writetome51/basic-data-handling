@@ -1,7 +1,10 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var checkTypeOf_1 = require("./checkTypeOf");
+Object.defineProperty(exports, "__esModule", {value: true});
+var isObject_notObject = require("./isObject_notObject");
+
+
 function errorIfNotObject(variable) {
-    checkTypeOf_1.checkTypeOf(variable, 'object');
+	if (isObject_notObject.notObject(variable))
+		throw new Error('Input must be object');
 }
 exports.errorIfNotObject = errorIfNotObject;
