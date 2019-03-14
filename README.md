@@ -66,6 +66,15 @@ isArray(variable)
 notArray(variable)  
    //  import {notArray} from 'basic-data-handling/isArray_notArray'
 
+isObject(variable)  
+   // Does NOT consider null an object.  
+   // Arrays ARE considered objects.  
+   // import {isObject} from 'basic-data-handling/isObject_notObject'
+
+notObject(variable)  
+   // Will return true if variable is string, boolean, number, null, or undefined.  
+   // import {notObject} from 'basic-data-handling/isObject_notObject'
+
 isString(variable)  
    //  import {isString} from 'basic-data-handling/isString_notString'
 

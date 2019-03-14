@@ -124,7 +124,7 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="9.8.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.14.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -157,7 +157,7 @@
     <configuration name="checkTypeOf_test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="checkTypeOf_test.js" working-dir="$PROJECT_DIR$/tests">
       <method v="2" />
     </configuration>
-    <configuration name="isArray_notArray_test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="isArray_notArray_test.js" working-dir="$PROJECT_DIR$/tests">
+    <configuration name="errorIfNotObject.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/errorIfNotObject.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="isObject_notObject.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/isObject_notObject.js" working-dir="$PROJECT_DIR$">
@@ -170,19 +170,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.isArray_notArray_test.js" />
       <item itemvalue="Node.js.isString_tests.js" />
       <item itemvalue="Node.js.checkTypeOf_test.js" />
       <item itemvalue="Node.js.isObject_notObject.js" />
       <item itemvalue="Node.js.isObject_tests.js" />
+      <item itemvalue="Node.js.errorIfNotObject.js" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.isObject_tests.js" />
-        <item itemvalue="Node.js.isString_tests.js" />
+        <item itemvalue="Node.js.errorIfNotObject.js" />
         <item itemvalue="Node.js.isObject_notObject.js" />
+        <item itemvalue="Node.js.isString_tests.js" />
         <item itemvalue="Node.js.checkTypeOf_test.js" />
-        <item itemvalue="Node.js.isArray_notArray_test.js" />
       </list>
     </recent_temporary>
   </component>
